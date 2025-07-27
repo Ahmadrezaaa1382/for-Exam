@@ -54,7 +54,7 @@ nav li > a:hover {
     padding-top: 15px;
     display: flex;
     justify-content: center;
-    position: relative;
+
 }
 
 .text1, .text2, .text3 {
@@ -70,20 +70,26 @@ nav li > a:hover {
     font-size: 1.5rem;
     width: 200px;
     margin-top: 5px;
+    /* position: relative; */
+}
+
+.fix{
+    position: relative;
 }
 
 .laptop{
     position: absolute;
-    top: 47px;
-    width: 90px;
-    left: 500px;
+    top: 0px;
+    width: 100px;
+    right: 40px;
     z-index: 2;
 }
 
+
 .ipad{
     position: absolute;
-    top:100px;
-    left:520px;
+    top:60px;
+    right:70px;
     width:50px;
     z-index: 1;
 }
@@ -91,13 +97,15 @@ nav li > a:hover {
 .happy{
     position: absolute;
     width: 35px;
-    bottom: 230px;
+    top: 5px;
+    left: 10px;
 }
 
 .text2 {
     font-size: 1.5rem;
     width: 320px;
     margin-top: 10px;
+    /* position: relative; */
 }
 
 .text3 {
